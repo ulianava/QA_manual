@@ -1,5 +1,0 @@
-Hello
-World
-QA_manual
-06/03/2025
-QA manual 06/03/2025
