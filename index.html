@@ -4,133 +4,213 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <title>HW 21.1 UA</title>
 </head>
 <body>
-    <!-- Main container -->
-    <header>
-        <nav>
-            <ul class="nav-section">
-                 <li>
-                    <a href="./pages/hobbies.html">
-                        Hobbies
-                    </a>
-                </li>
-                <li>
-                    <a href="#work-section">
-                        Work experience
-                    </a>
-                </li>
-                <li>
-                    <a href="#courses">
-                        Courses
-                    </a>
-                </li>
-                <li >
-                    <a href="./pages/contacts.html">
-                        Contacts
-                    </a>
-                </li>
-            </ul>
-        </nav>
+    <header id="home">
+        <div class="bg-light">
+            <div class="container">
+                <div class="nav-block ">
+                    <nav class=" flex-sb">  
+                        <a href="#" class="d-flex gap-5 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile-upside-down" viewBox="0 0 16 16">
+                            <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1m0-1a8 8 0 1 1 0 16A8 8 0 0 1 8 0"/>
+                            <path d="M4.285 6.433a.5.5 0 0 0 .683-.183A3.5 3.5 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.5 4.5 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683M7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5m4 0c0-.828-.448-1.5-1-1.5s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5"/>
+                        </svg>
+                            <span class="logo-name">
+                                UA
+                            </span>
+                        </a>  
+                        <ul class=" menu" id='menu'>
+                            <li>
+                                <a href="./pages/hobbies.html">
+                                    Hobbies
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#work-section">
+                                    Work experience
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#courses">
+                                    Courses
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./pages/contacts.html">
+                                    Contacts
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+            </div>
+        </div>
     </header>
-    <!-- Main content section-->      
-    <main class="main-content-section" >
-        <!-- About me section -->
-        <div class="about-me-section">   
-            <h2 class="about-me"> About me </h2>
-            <h1>Uliana Averianova</h1>
-        <p> 
-            I'm 28 years old and currently working as a hotel manager.<br> In general, I'm a dedicated hotelier simply looking for a new and passionate job. <br> I'm a very determined person and have achieved success in my career. <br> Also, as a hotel worker, I reached a lot of soft skills, such as sociability and stress resistance ability to work in a team.    
-        </p>
+    <main class="header-section" >
+        <div class="bg-light">
+            <div class="container">
+                <section class="flex-sb">
+                    <img src="/images/photo1.jpg" alt="leafs" class="photo-header">
+                    <div class="main-text-block">
+                        <h1 class="main-title">
+                            Uliana Averianova
+                        </h1>
+                        <p class="text-section">
+                            I'm 28 years old and currently working as a hotel manager. In general, I'm a dedicated hotelier simply looking for a new and passionate job. I'm a very determined person and have achieved success in my career.  Also, as a hotel worker, I reached a lot of soft skills, such as sociability and stress resistance ability to work in a team.    
+
+                        </p>
+                    </div>
+                </section>
+            </div>
         </div>
-        <!-- My work experience -->
-        <div class="my-work-experience-section" id="work-section"> 
-        <h3 >Work Experience</h3>  
-            <div> 
-                <h4 class="hotel-name">Design Hotel "Rooms and Rumors" <em>GM</em> </h4>
-            </div>
-            <div> 
-                <h4 class="hotel-name">Hotel "Ark Palace" <em>Manager</em></h4>
-            </div>
-            <div> 
-                <h4 class="hotel-name">Hotel "Wall Street" <em>Manager</em></h4>
-            </div>                    
-        </div>
-        <!--My courses section-->
-        <div class="my-courses-section" id="courses">
-            <h3>Courses</h3>
-            <div>
-                <h5>Hillel IT school | QA Manual <em> 2025</em></h5>
-            </div>
-            <div>
-                <h5>Hillel IT school | Front-end Basic <em> 2022</em></h5>
-            </div>
-        </div> 
-        <!--My Languages section-->
-        <div class="my-Languages-section">
-            <h3 >Languages</h3>
-            <ul>
-                <li>English - B2</li>
-                <li>German - A2</li>
-                <li>Romanian - A2</li>
-                <li>French - A2</li>
-                <li>Russian - Native</li>
-                <li>Ukrainian - Native</li>
-            </ul>
-        </div> 
     </main>
-    <!--  section -->  
-    <section>
-        <div class="tech-skills-section"> 
-            <h3 >Tech Skills</h3>
-            <ul>
-                <li>
-                    HTML 
-                </li>
-                <li>
-                    CSS (preprocessors as well) 
-                </li>
-                <li>
-                    JavaScript (in process) 
-                </li>
-                <li>
-                    GitHub 
-                </li>
-                <li>
-                    IDE: VS code 
-                </li>
-                <li>
-                    Bootstrap 
-                </li>
-                <li>
-                    Figma 
-                </li>
-            </ul>
+    <section class="main-section " id="work-section" >
+        <div class="container">
+            <div class="flex-sb">
+                <div class="main-text-block">
+                    <h2 class="h2-title">
+                       Work Experience            
+                    </h2>
+                    <div> 
+                        <h4 class="text-bold ">Design Hotel "Rooms and Rumors" </h4>
+                        <p>General Manager</p>
+                    </div>
+                    <div> 
+                        <h4 class="text-bold">Hotel "Ark Palace" </h4>
+                        <p> Manager </p>
+                    </div>
+                <div> 
+                    <h4 class="text-bold">Hotel "Wall Street"</h4>
+                    <p> Manager</p>
+                </div>                    
+                </div>
+                           
+                <div class="my-education-section" id="courses">
+                    <h2 class="h2-title">Courses</h2>
+                    <div>
+                        <h4 class="text-bold">Hillel IT school | QA Manual </h4>
+                        <p> 2025</p>
+                    
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-bold">Hillel IT school | Front-End Basic </h4>
+                        <p>2022</p>
+                    </div>
+                </div> 
+            </div>
         </div>
-        <!--Soft skills section-->
-        <div class="soft-skills-section">
-            <h3 >Soft Skills</h3>
-            <ul>
-                <li> Communication Skills</li>
-                <li>Teamwork</li>
-                <li>Leadership Skills</li>
-                <li>Problem-Solving Skills</li>
-            </ul>
-        </div>    
-    </section> 
-     
- 
-    <footer id="footer">
-        <div class="footer-section">
-            <a href="https://github.com/ulianava" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-github" viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-            </svg>
-            </a>
-            
+    </section>
+    <section id="skills" class="skills-section">
+        <div class="bg-light">
+            <div class="container">
+                <div class="skills-section-wrap flex-sb">
+                    <div class="skills-block">
+                        <h2 class="h2-title">
+                            Skills            
+                        </h2>
+                        <div class="accordion">
+                            <div class="tab ">
+                                <div class="tab-title bg-light">
+                                    Languages
+                                </div> 
+                                <div class="tab-content"> 
+                                    <ul class="tab-text">
+                                        <li>English - B2</li>
+                                        <li>German - A2</li>
+                                        <li>Romanian - A2</li>
+                                        <li>French - A2</li>
+                                        <li>Russian - Native</li>
+                                        <li>Ukrainian - Native</li>
+                                    </ul>
+                                </div> 
+                            </div> 
+                            <div class="tab">
+                                <div class="tab-title bg-light">
+                                    Tech Skills 
+                                </div> 
+                                <div class="tab-content"> 
+                                    <ul class="tab-text">
+                                        <li>
+                                            HTML 
+                                        </li>
+                                        <li>
+                                            CSS (preprocessors as well) 
+                                        </li>
+                                        <li>
+                                            JavaScript (in process) 
+                                        </li>
+                                        <li>
+                                            GitHub 
+                                        </li>
+                                        <li>
+                                            IDE: VS code 
+                                        </li>
+                                        <li>
+                                            Bootstrap 
+                                        </li>
+                                        <li>
+                                            Figma 
+                                        </li>
+                                    </ul>
+                                </div> 
+                            </div> 
+                            <div class="tab ">
+                                <div class="tab-title bg-light">
+                                    Soft Skills
+                                </div> 
+                                <div class="tab-content"> 
+                                    <ul class="tab-text" >
+                                        <li>Communication Skills</li>
+                                        <li>Teamwork</li>
+                                        <li>Leadership Skills</li>
+                                        <li>Problem-Solving Skills</li>
+                                    </ul>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="skills-block ">
+                        <h2 class="h2-title">
+                            Contacts            
+                        </h2>
+                        <div>
+                        <ul class="contacts-list">
+                            <li>
+                                <span class="text-bold">C:</span>
+                                <a href="tel:+380682577708">+380682577708</a>
+                            </li>
+                            <li>
+                                <span class="text-bold">E:</span>
+                                <a href="mailto:uliana.averianova@gmail.com">uliana.averianova@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <em>Took me a while to think of what to put here!</em> 
+        </div>
+
+    </section>
+    <footer >
+        <div class="container">
+            <div class="flex-sb footer-block">
+                <a href="https://github.com/ulianava">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </a>
+                <p class="text-bold">
+                    Took me a while to think of what to put here!
+                </p>
+            </div>
+        </div>
     </footer>
+   <script src="./index.js"></script>
 </body>
-</html>
